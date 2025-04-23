@@ -1,5 +1,5 @@
 /// ISuspension Bean.
-abstract class ISuspensionBean {
+mixin ISuspensionBean {
   bool isShowSuspension = false;
 
   String getSuspensionTag(); //Suspension Tag
